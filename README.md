@@ -14,3 +14,8 @@ conn = pypyodbc.connect("Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17
                         "uid=;pwd=",autocommit=True)
 
 cursor = conn.cursor()
+
+cnxn = pypyodbc.connect("Driver={SQL Server Native Client 11.0};"
+                      "Server=DESKTOP-0DMHFMS\SQLEXPRESS;"
+                      "Database=AdventureWorks2017;"
+                      "Trusted_Connection=yes;")
