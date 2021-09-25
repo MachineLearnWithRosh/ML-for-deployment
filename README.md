@@ -25,6 +25,8 @@ cnxn = pypyodbc.connect("Driver={SQL Server Native Client 11.0};"
 Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1
 
 
+cursor = cnxn.cursor()
+
 cursor.execute('select * from HumanResources.Department')
 
 for row in cursor:
