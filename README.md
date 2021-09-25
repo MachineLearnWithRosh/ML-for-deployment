@@ -19,3 +19,7 @@ cnxn = pypyodbc.connect("Driver={SQL Server Native Client 11.0};"
                       "Server=DESKTOP-0DMHFMS\SQLEXPRESS;"
                       "Database=AdventureWorks2017;"
                       "Trusted_Connection=yes;")
+
+
+
+Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1
